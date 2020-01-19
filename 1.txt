@@ -1,1 +1,30 @@
-Hello
+var height = +prompt('Введите высоту елочки!'); 
+var symbol = prompt('Введите символ!');
+var tree = '';
+
+function showTree(height, symbol) {
+ 	if(symbol.length > 1) {
+ 		alert("Ошибка!");
+ 	}
+ 	else {
+   		for (var symbols = 1; symbols <= height; ++symbols) {
+   			
+   			for (var i = symbols; i <= height; ++i) {
+            tree += " ";
+        	}
+
+        	for (var j = symbols; j != 0; --j) {
+        	tree += symbol + ' ';
+        	}
+
+        	tree += "\n";
+    	}
+
+    alert(tree);
+	}
+}
+showTree(height, symbol);
+
+</script>
+</body>
+</html>
