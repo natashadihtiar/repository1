@@ -28,3 +28,18 @@ showTree(height, symbol);
 </script>
 </body>
 </html>
+
+
+
+
+var num1 = 42;
+var num2 = 3;
+function getAvarage(first, second, helper){
+	return helper('s');
+}
+
+function getNumber(a) {
+	return a;
+}
+var resultFunction = getAvarage(num1, num2, getNumber);
+console.log(resultFunction);
