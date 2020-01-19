@@ -43,3 +43,19 @@ function getNumber(a) {
 }
 var resultFunction = getAvarage(num1, num2, getNumber);
 console.log(resultFunction);
+
+
+
+
+
+var num1 = 42;
+var num2 = 3;
+function getAvarage(first, second, helper){
+	return helper(num1, num2)/2;
+}
+
+function getSum(a, b) {
+	return a + b;
+}
+var resultFunction = getAvarage(num1, num2, getSum);
+console.log(resultFunction);
