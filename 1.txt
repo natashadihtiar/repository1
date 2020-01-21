@@ -83,3 +83,54 @@ console.log(getAvarage(num1, num2, getSum(3, 3)));
         }
         console.log(foo('Oleg'));
         console.log(foo(sum(2, 3)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*var object = {
+        	name: "Oleg",
+        	surname: "Petrov",
+        	'b day': 1979,
+        	height: 190
+
+        };
+
+        var ask = confirm ('Add height?');
+
+        if (ask) {
+        	delete object.height;
+        }
+
+
+        console.log(object.name);
+        console.log(object['b day']);// при сложных свойствах
+        console.log(object);*/
+
+        ///////////////////////////////функция внутри объекта////////////////////////////////
+        /*var object = {
+        	name: "Oleg",
+        	surname: "Petrov",
+        	bday: 1979,
+        	height: 190,
+        	getAge: function(){
+        		var date = new Date;
+        		return date.getFullYear() - object.bday;
+        	}
+
+        };
+
+        console.log(object.getAge());*/
+
+        var number = 42;
+        console.log(typeof number.toString());
+        console.log(number.toString());
