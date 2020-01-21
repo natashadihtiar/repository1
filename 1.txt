@@ -75,3 +75,11 @@ function getSum(a, b) {
 
 console.log(getAvarage(num1, num2, getSum(3, 3)));
 
+        function foo(name){
+        	if (typeof name === "function"){
+        		return 'Hello ' + name();
+        	}
+        	return 'Hello ' + name;
+        }
+        console.log(foo('Oleg'));
+        console.log(foo(sum(2, 3)));
